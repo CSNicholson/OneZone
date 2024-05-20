@@ -127,7 +127,6 @@ section {
 
 .about .row {
     display: flex;
-    align-items: right;
     gap: 3rem;
     flex-wrap: wrap;
     padding: 2rem 0;
