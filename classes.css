@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6em;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background: dimgrey;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.section-heading h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 5% auto;
+}
+
+.img-area {
+    width: 350px;
+    height: 400px;
+    transition: all 0.5s ease-in-out 0s;
+    float: left;
+    margin: 0 15px;
+    text-align: center;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 20px rgba(0,0,0,.5);
+}
+
+.img-area:hover {
+    box-shadow: 0 0 200px rgba(0,0,0,.9) inset;
+}
+
+.img-area h4,
+.img-area h3 {
+    text-align: center;
+    padding: 80px;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.8s ease-in-out 0s;
+    font-size: 35px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.img-area h4 {
+    font-family: Verdana;
+}
+
+.img-area h3 {
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.img-area:hover h4,
+.img-area:hover h3 {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-area p a {
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.8s ease-in-out 0s;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.img-area:hover p a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+footer {
+    background-color: transparent;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.socialicons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover {
+    background: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+    .footernav ul {
+        flex-direction: column;
+    }
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .img-area {
+        width: 100%;
+        height: 400px;
+        float: none;
+        margin: 0;
+    }
+    .img-area h4 {
+        padding-top: 41%;
+    }
+}
