@@ -60,6 +60,12 @@ The site was deployed to GitHub pages.
 - a pop up will say that everything is saved and the link is ready to be used for your website. 
 The live link can be found here - https://csnicholson.github.io/onezone.github.io/
 
+# Credits 
+Youtube Videos which helped me with my Project
+- https://www.youtube.com/watch?v=UC52lijSsEM
+- https://www.youtube.com/watch?v=lgX38fNbxmw
+- https://www.youtube.com/watch?v=-Yw9gBHE60E&t=89s
+
 
 # Media
 All pictures and videos are used with Pexels. 
