@@ -53,6 +53,12 @@ All the Phone and tablet users, will struggle to view the website as things are 
 With tablet users the buttons collide together.
 ![image](https://github.com/CSNicholson/onezone.github.io/assets/168688751/fdd536a8-31f3-4b6c-9421-fe7570cc05b3)
 
+# Deployment
+The site was deployed to GitHub pages. 
+- Go to Settings within the GitHub respository.
+- Go to Pages and select main and /root and save.
+- a pop up will say that everything is saved and the link is ready to be used for your website. 
+The live link can be found here - https://csnicholson.github.io/onezone.github.io/
 
 
 # Media
