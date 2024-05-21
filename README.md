@@ -38,7 +38,7 @@ There are three memberships for people to choose from. All have there perks to w
 <img width="1438" alt="Screenshot 2024-05-21 at 10 08 36" src="https://github.com/CSNicholson/onezone.github.io/assets/168688751/0b33f302-5902-4f41-8acc-bec8ddd87fd6">
 
 # Unfixed Bugs
-The Classes and Memberships buttons, you click just a little above the text, which i feel for me needs to be fixed to not confuse others.
+The Classes and Memberships buttons, you click just a little above the text, which i feel for me needs to be fixed to not confuse others. Also to add a Menu button (Burger Button) to collapse the Navigation bar so its easier for mobile users to read the page. Make sure the buttons on the home page are not colliding together.
 
 # Validator Testing
 W3C Testing
@@ -46,6 +46,14 @@ W3C Testing
 
 Jigsaw Testing
 <img width="1390" alt="Screenshot 2024-05-21 at 00 34 42" src="https://github.com/CSNicholson/onezone.github.io/assets/168688751/987b1fc7-df38-4a93-ae66-d8537e31490f">
+
+# Testing
+All the Phone and tablet users, will struggle to view the website as things are looking squashed, especially the navigation bar.
+![image](https://github.com/CSNicholson/onezone.github.io/assets/168688751/caaedfee-235f-47e8-9d2b-2991f1ac89f5)
+With tablet users the buttons collide together.
+![image](https://github.com/CSNicholson/onezone.github.io/assets/168688751/fdd536a8-31f3-4b6c-9421-fe7570cc05b3)
+
+
 
 # Media
 All pictures and videos are used with Pexels. 
